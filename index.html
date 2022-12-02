@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crowne Plaza</title>
+    <link rel="shortcut icon" href="img\logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div id="navbar">
+        <a href="index.html">
+            <h4><span style="color: red; font: size 17px;"> C</span>rowne <span
+                    style="color: rgb(255, 0, 0); font: size 17px;">P</span>laza</h4>
+        </a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Our Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact Us</a>
+        <a style="margin-left: 725px;" href="login.html" target="_blank">Login</a>
+        <a href="register.html" target="_blank">Sign Up</a>
+    </div>
+
+    <div class="parallax1" id="home">
+        <div class="caption1">
+            <span class="border"> <span style="color: yellow;"> C</span>rowne <span
+                    style="color: yellow;">P</span>laza</span>
+        </div>
+    </div>
+    <div class="parallax2" id="about">
+        <div class="contentbox1">
+            <div class="content1">
+                <h1 class="about"> <span style="color:yellow;">O</span>ur <span style="color:yellow;">L</span>egacy</h1>
+                <p>
+                    Crowne Plaza is a British multinational chain of full service, upscale hotels headquartered in the
+                    United Kingdom. It caters to business travelers and the meetings and conventions market. It forms
+                    part of the InterContinental Hotels Group family of brands, which include InterContinental Hotels &
+                    Resorts and Holiday Inn Hotels & Resorts, and operates in nearly 100 countries with more than 431
+                    hotels and 118,000 bedrooms, usually located in city centers, resorts, coastal towns or near major
+                    airports.
+                </p>
+                <h3 class="gallery">Other Branches</h3>
+                <div class="grid-container1">
+                    <div><img class="gallery1 zoom" src="img\gallery1.jpg" alt="Bratislava, Slovakia"></div>
+                    <div><img class="gallery1 zoom" src="img\gallery2.jpg" alt="New York City, New York, United States">
+                    </div>
+                    <div><img class="gallery1 zoom" src="img\gallery3.jpg" alt="İzmir, Turkey"></div>
+                    <div><img class="gallery1 zoom" src="img\gallery4.jpg" alt="Kansas City, Missouri, United States">
+                    </div>
+                    <div><img class="gallery1 zoom" src="img\gallery5.jpg"
+                            alt="Hotel International Prague, Czech Republic">
+                    </div>
+                    <div><img class="gallery1 zoom" src="img\gallery6.jpg"
+                            alt="Natick, Massachusetts, United States / Framingham, Massachusetts, United States">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax3" id="services">
+        <div class="contentbox2">
+            <div class="content2">
+                <h3 class="heading">Our Services</h3>
+                <div class="menu">
+                    <div class="box">
+                        <h3 style="font-family:Verdana, Geneva, Tahoma, sans-serif; text-align: center;">HEALTH AND
+                            FITNESS</h3>
+                        <center> <img class="sg1" src="img\sgallery1.jpg" alt="HEALTH AND FITNESS"></center>
+                        <div>
+                            <p
+                                style="text-align:justify; font-size: 15px; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                                Enjoy the best of outdoor workouts at our state-of-the-art
+                                gym facility, where running feels real and cycling mimics gear ratio in real time.
+                                Smart-watch ready machines track your workouts, have built-in charging pockets for your
+                                phone, and come with digital coaches.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h3 style="font-family:Verdana, Geneva, Tahoma, sans-serif; text-align: center;">FESTIVAL
+                            RESIDENCE</h3>
+                        <center> <img class="sg1" src="img\sgallery2.jpg" alt="FESTIVAL ACCOMMODATION"></center>
+                        <div>
+                            <p
+                                style="text-align:justify; font-size: 15px; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                                We're perfectly located for your Festival accommodation. Stay within walking
+                                distance to key venues and pop-up events. Walk 15 minutes to your desired location. With
+                                our stay longer offer, arrive Friday check out Wednesday.
+                                Skip the out-of-office reply and work out of our contemporary coworking space.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h3 style="font-family:Verdana, Geneva, Tahoma, sans-serif; text-align: center;">EVENT
+                            ORGANISATION</h3>
+                        <center> <img class="sg1" src="img\sgallery3.jpg" alt="CONFERENCES AND EVENTS"></center>
+                        <div>
+                            <p
+                                style="text-align:justify; font-size: 15px; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                                We're all about professionalism, with a modern approach for conferences and events. Set
+                                up your event for success in 450 square metres of configurable space. Your social
+                                currency is sorted with the best local beers and wines for post-meeting celebrations
+                                outdoors at Luna10.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="min-height: 500px;" class="parallax1" id="gallery">
+        <div class="caption1">
+            <span class="border"> <span style="color: yellow;"> C</span>rowne <span
+                    style="color: yellow;">P</span>laza</span>
+        </div>
+    </div>
+    <div class="parallax4">
+        <br>
+        <div class="contact" id="contact">
+            <header style="font-family:Verdana, Geneva, Tahoma, sans-serif;">Contact Us</header>
+            <form action="#" name="myform" method="post" onsubmit="return validate()">
+                <input class="input" type="text" name="name" placeholder="Enter your name"> <br> <br>
+                <input class="input" type="email" name="email" placeholder="Enter your email"> <br> <br>
+                <input class="input" type="text" name="feedback" placeholder="Enter your Feedback / Query"> <br><br>
+                <input type="submit" class="button" value="Submit"> <br> <br>
+                <a href="#home" class="return">
+                    <center>Back to Top</center>
+                </a>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="center">
+            Copyright &copy; Crowne Plaza <br> Made by Aditya Singh , Shashank , Vivaswan Singh
+        </div>
+    </footer>
+
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+
+        // forms        
+        function validate() {
+            var name = document.myform.name.value;
+            if (name == null || name == "") {
+                alert("Name Can't Be Blank");
+                return false;
+            }
+            var email = document.myform.email.value;
+            if (email == null || email == "") {
+                alert("Please Enter Your Email");
+                return false;
+            }
+            var feedback = document.myform.feedback.value;
+            if (feedback == null || feedback == "") {
+                alert("Please Enter Your Feedback!");
+                return false;
+            }
+
+            alert("Server is not active!!")
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>
