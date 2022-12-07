@@ -3,11 +3,13 @@
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
+    /* CSS box-sizing property allows us to include the padding and border in an element's total width and height. */
 }
 
 .register {
     border-radius: 24px;
     width: 25vw;
+    /* 1% of the viewport's width. */
     margin-top: 120px;
     margin-left: 38%;
     padding: 20px;
@@ -16,16 +18,16 @@
 }
 
 .input {
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
     width: 100%;
     background-color: rgb(185, 181, 181);
 }
 
 header {
     font-size: 2rem;
-    font-weight: 500;
+    /* rem = root em */
     text-align: center;
     margin-bottom: 1.5rem;
 }
@@ -44,12 +46,12 @@ a:hover {
     color: #fff;
     background: #000000;
     font-size: 1.2rem;
-    font-weight: 500;
     letter-spacing: 2px;
     cursor: pointer;
+    /* The cursor property specifies the mouse cursor to be displayed when pointing over an element. */
     height: 60px;
     width: 100%;
-    border: 0px;
+    border: none;
     border-radius: 6px;
 }
 
@@ -65,4 +67,15 @@ body {
     background-image: url("./img/image1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+footer {
+    background: black;
+    color: rgb(255, 255, 255);
+    padding: 9px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center {
+    text-align: center;
 }
