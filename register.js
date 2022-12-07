@@ -35,4 +35,5 @@ function validate() {
     }
 
     alert("Server is not active!!")
+    return false;
 }
