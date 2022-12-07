@@ -8,7 +8,16 @@
     <title>Crowne Plaza</title>
     <link rel="shortcut icon" href="img\logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* descendent selector */
+        span a:visited {
+            color: white;
+        }
+
+        span a:hover {
+            color: red;
+        }
+    </style>
 </head>
 
 <body>
@@ -44,7 +53,7 @@
                     hotels and 118,000 bedrooms, usually located in city centers, resorts, coastal towns or near major
                     airports.
                 </p>
-                <h3 class="gallery">Other Branches</h3>
+                <h3 class="gallery">Gallery</h3>
                 <div class="grid-container1">
                     <div><img class="gallery1 zoom" src="img\gallery1.jpg" alt="Bratislava, Slovakia"></div>
                     <div><img class="gallery1 zoom" src="img\gallery2.jpg" alt="New York City, New York, United States">
@@ -128,7 +137,8 @@
     </div>
     <footer>
         <div class="center">
-            Copyright &copy; Crowne Plaza <br> Made by Aditya Singh
+            Copyright &copy; <span> <a style="text-decoration:none;" href="index.html" target="_blank"> Crowne Plaza
+                </a> </span> <br> Made by Aditya Singh | Shashank | Vivaswan Singh
         </div>
     </footer>
 
@@ -166,6 +176,7 @@
             }
 
             alert("Server is not active!!")
+            return false;
         }
 
 
